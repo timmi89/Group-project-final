@@ -1,11 +1,11 @@
 body {
-background: linear-gradient(#fff, transparent 50%), linear-gradient(0deg, #fff, transparent 20%), url("../img/cover3.jpg") no-repeat center;
+background: linear-gradient(#fff, transparent 50%), linear-gradient(0deg, #fff, transparent 80%), url("../images/purple_flowers.jpg") no-repeat center;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
 
 }
 
-.topnav {
+.navbar {
   background: linear-gradient(#6F9283, transparent 100%), linear-gradient(0deg, #705151, transparent 100%);
   color: white;
 }

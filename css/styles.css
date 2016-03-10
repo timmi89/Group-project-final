@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
-  max-width: 1600px;
+  max-width: 100%;
 }
 
 .navbar {
@@ -86,7 +86,6 @@
 }
 
 .flex-form {
-  min-width: 390px;
   height: 20vh;
   margin: 0 auto;
   display: flex;
@@ -107,7 +106,7 @@
       background: url('../images/down_caret.png') no-repeat;        /*Adds background-image*/
       background-color:rgba(191,	192,	192, 0.5);
       background-position: 82px 7px;                /*Position of the background-image*/
-      width: 100px;                /*Width of select dropdown to give space for arrow image*/
+      width:100px;                /*Width of select dropdown to give space for arrow image*/
 }
 
 .flex-form-wrap {
@@ -199,6 +198,8 @@ footer {
   background: linear-gradient(#5C415D, transparent 100%), linear-gradient(0deg, #5C415D, transparent 100%);
   border-bottom: 2px solid black;
   width: 100%;
+  color: #6F9283;
+  text-shadow: 2px 2px 2px #22223B;
 }
 footer a {
   color: white;
@@ -238,6 +239,8 @@ footer a {
   width: 100%;
   margin: 0 auto;
    }
+
+
 
   .flex-form-wrap {
      text-align: none;
@@ -324,8 +327,8 @@ font-size: 15px;
 }
 
 
-footer {
+/*footer {
   background: linear-gradient(#5C415D, transparent 100%), linear-gradient(0deg, #5C415D, transparent 100%);
   border-bottom: 2px solid black;
   width: 100%;
-}
+}*/

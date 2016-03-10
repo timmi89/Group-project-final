@@ -64,6 +64,9 @@
     color: #BFC0C0;
   }
 
+  #logo {
+    padding: 20px;
+  }
 
   .about {
     width: 100%;
