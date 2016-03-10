@@ -1,6 +1,7 @@
 body {
 background: linear-gradient(#fff, transparent 50%), linear-gradient(0deg, #fff, transparent 20%), url("../img/cover3.jpg") no-repeat center;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -132,4 +133,19 @@ h5 {
   color: #5C415D;
   font-size: 18px;
   text-shadow: 2px 2px 2px gray;
+}
+footer {
+  /*display: flex;*/
+  flex-wrap: wrap;
+  /*border: 5px solid orange;*/
+  background: linear-gradient(#5C415D, transparent 100%), linear-gradient(0deg, #5C415D, transparent 100%);
+  border-bottom: 2px solid black;
+  width: 100%;
+  text-align: center;
+  /*font-size: 10px;*/
+}
+
+footer a {
+  color: white;
+  font-size: 30px;
 }

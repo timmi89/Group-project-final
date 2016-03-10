@@ -100,6 +100,16 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.flex-form select {
+      /*border: 0 !important;       */
+      /*-webkit-appearance: none;
+      -moz-appearance: none;          */
+      background: url('../images/down_caret.png') no-repeat;        /*Adds background-image*/
+      background-color:rgba(191,	192,	192, 0.5);
+      background-position: 82px 7px;                /*Position of the background-image*/
+      width: 100px;                /*Width of select dropdown to give space for arrow image*/
+}
+
 .flex-form-wrap {
   text-align:center;
 }
@@ -182,13 +192,19 @@ align-items: center;
 }
 
 footer {
-  display: flex;
-  flex-wrap: wrap;
+  text-align: center;
+  /*display: flex;
+  flex-wrap: wrap;*/
   /*border: 5px solid orange;*/
   background: linear-gradient(#5C415D, transparent 100%), linear-gradient(0deg, #5C415D, transparent 100%);
   border-bottom: 2px solid black;
   width: 100%;
 }
+footer a {
+  color: white;
+  font-size: 30px;
+}
+
 
 
 @media screen and (min-width: 640px) {
